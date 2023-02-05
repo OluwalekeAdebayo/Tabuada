@@ -1,0 +1,26 @@
+# Primeiro codigo
+  
+#Nome
+nome = input('Ola qual é seu nome? : ')
+print('Ola {} Bem vindo ao meu app !'.format(nome))
+
+#Numeros
+n1 = int(input('Que numero deseja constatar? : '))
+n2 = n1 - 1
+n3 = n1 + 1
+print('O antecessor de {} é igual a {} e seu sucessor é {}.'.format(n1,n2,n3))
+
+#Tabuada
+print('Sua Tabuada é : ')
+print('-'*12)
+print('{} x {:2} = {}'.format(n1,1,n1*1))
+print('{} x {:2} = {}'.format(n1,2,n1*2))
+print('{} x {:2} = {}'.format(n1,3,n1*3))
+print('{} x {:2} = {}'.format(n1,4,n1*4))
+print('{} x {:2} = {}'.format(n1,5,n1*5))
+print('{} x {:2} = {}'.format(n1,6,n1*6))
+print('{} x {:2} = {}'.format(n1,7,n1*7))
+print('{} x {:2} = {}'.format(n1,8,n1*8))
+print('{} x {:2} = {}'.format(n1,9,n1*9))
+print('{} x {:2} = {}'.format(n1,10,n1*10))
+print('-'*12)
